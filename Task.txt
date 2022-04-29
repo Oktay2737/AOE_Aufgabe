@@ -1,0 +1,11 @@
+Scenario: In order to ensure that the filter of job offerings feature of the AOE website is working
+properly and to detect regression problems, it was decided to write a suitable test case.
+Task: Implement a test case which performs all of the following steps:
+1. Visit our company website at www.aoe.com.
+2. Navigate to the ‘Vacancies’ page of the career section.
+3. Filter the offerings by entering ‘frontend’ as keyword.
+4. Check the returned list for the keyword.
+5. Open the first entry which is displayed.
+6. Check that the content of this job offering is being displayed.
+Hint: Check that any part of the job offerings text is not empty.
+7. Close the browser.
